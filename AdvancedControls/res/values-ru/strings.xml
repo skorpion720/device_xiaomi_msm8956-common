@@ -37,8 +37,8 @@
     <string name="plus_one">+1</string>
     <string name="minus_one">-1</string>
     <string name="restore_default">По умолчанию</string>
-    <string name="restore_on_boot">Восстанавливать настройки после перезагрузки</string>
+    <string name="restore_on_boot">Сохранить настройки (антисброс)</string>
     <string name="category_kcal_presets">Kcal пресеты</string>
-    <string name="kcal_presets_title">использовать значения kcal пресетов</string>
+    <string name="kcal_presets_title">Использование kcal пресетов</string>
     <string name="presets_list_title">Выбор kcal пресета</string>
 </resources>

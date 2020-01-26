@@ -157,6 +157,10 @@ on property:dev.bootcomplete=1
     # Enable Zram
     swapon_all /fstab.qcom
 
+# CPU & GPU UV
+write /sys/devices/system/cpu/cpu0/cpufreq/GPU_mV_table "710 725 760 800 860 900 920 980 1020"
+write /sys/devices/system/cpu/cpu0/cpufreq/UV_mV_table "740 760 820 905 965 1005 1015 1030 1050 780 805 870 910 970 1020 1040"
+
 service perfd /system/vendor/bin/perfd
     class main
     user root

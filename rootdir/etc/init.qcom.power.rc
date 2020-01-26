@@ -164,3 +164,7 @@ service perfd /system/vendor/bin/perfd
     disabled
     socket perfd seqpacket 0666 root system
     writepid /dev/cpuset/system-background/tasks
+
+# CPU & GPU UV
+write /sys/devices/system/cpu/cpu0/cpufreq/GPU_mV_table "700 720 750 800 860 900 920 980 1000"
+write /sys/devices/system/cpu/cpu0/cpufreq/UV_mV_table "735 735 780 855 915 945 975 990 995 755 765 830 865 935 975 990"

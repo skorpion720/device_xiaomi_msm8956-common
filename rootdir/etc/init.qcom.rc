@@ -85,7 +85,7 @@ on early-boot
 on fs
     wait /dev/block/bootdevice
     mount_all fstab.qcom
-    write /proc/sys/vm/swappiness 100
+    write /proc/sys/vm/swappiness 60
     mkdir /persist/data 0700 system system
     restorecon_recursive /persist
 

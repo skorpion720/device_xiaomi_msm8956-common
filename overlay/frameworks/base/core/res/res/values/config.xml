@@ -484,6 +484,12 @@
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
+
+    <!-- Cutout -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 L 0, 0 C 0,0 0,0 0,0</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">@*android:string/config_mainBuiltInDisplayCutout</string>
   
 </resources>
 

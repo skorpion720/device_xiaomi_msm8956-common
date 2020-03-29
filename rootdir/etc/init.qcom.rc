@@ -147,6 +147,10 @@ on boot
     chown root system /sys/devices/virtual/timed_output/vibrator/vtg_level
     chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
 
+    # Touch HAL
+    chown root system /proc/touchpanel/capacitive_keys_enable
+    chmod 0660 /proc/touchpanel/capacitive_keys_enable
+
     #Create QMUX deamon socket area
     mkdir /dev/socket/qmux_radio 0770 radio radio
     chmod 2770 /dev/socket/qmux_radio
